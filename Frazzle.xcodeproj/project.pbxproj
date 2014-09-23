@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78BEAF8D19D1BFAE00C4D415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */; };
+		78BEAF9019D1BFAE00C4D415 /* Frazzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */; };
+		78BEAF9219D1BFAE00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */; };
+		78BEAF9419D1BFAE00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */; };
+		78BEAF9719D1BFAE00C4D415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9519D1BFAE00C4D415 /* Main.storyboard */; };
+		78BEAF9919D1BFAE00C4D415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9819D1BFAE00C4D415 /* Images.xcassets */; };
+		78BEAF9C19D1BFAE00C4D415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */; };
+		78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78BEAFA219D1BFAE00C4D415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BEAF7F19D1BFAD00C4D415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BEAF8619D1BFAD00C4D415;
+			remoteInfo = Frazzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78BEAF8719D1BFAD00C4D415 /* Frazzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frazzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BEAF8B19D1BFAD00C4D415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Frazzle.xcdatamodel; sourceTree = "<group>"; };
+		78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		78BEAF9619D1BFAE00C4D415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78BEAF9819D1BFAE00C4D415 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78BEAF9B19D1BFAE00C4D415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78BEAFA119D1BFAE00C4D415 /* FrazzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrazzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BEAFA619D1BFAE00C4D415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrazzleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BEAF8419D1BFAD00C4D415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BEAF9E19D1BFAE00C4D415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BEAF7E19D1BFAD00C4D415 = {
+			isa = PBXGroup;
+			children = (
+				78BEAF8919D1BFAD00C4D415 /* Frazzle */,
+				78BEAFA419D1BFAE00C4D415 /* FrazzleTests */,
+				78BEAF8819D1BFAD00C4D415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78BEAF8819D1BFAD00C4D415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAF8719D1BFAD00C4D415 /* Frazzle.app */,
+				78BEAFA119D1BFAE00C4D415 /* FrazzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BEAF8919D1BFAD00C4D415 /* Frazzle */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */,
+				78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */,
+				78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */,
+				78BEAF9519D1BFAE00C4D415 /* Main.storyboard */,
+				78BEAF9819D1BFAE00C4D415 /* Images.xcassets */,
+				78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */,
+				78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */,
+				78BEAF8A19D1BFAD00C4D415 /* Supporting Files */,
+			);
+			path = Frazzle;
+			sourceTree = "<group>";
+		};
+		78BEAF8A19D1BFAD00C4D415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAF8B19D1BFAD00C4D415 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BEAFA419D1BFAE00C4D415 /* FrazzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */,
+				78BEAFA519D1BFAE00C4D415 /* Supporting Files */,
+			);
+			path = FrazzleTests;
+			sourceTree = "<group>";
+		};
+		78BEAFA519D1BFAE00C4D415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFA619D1BFAE00C4D415 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BEAF8619D1BFAD00C4D415 /* Frazzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BEAFAB19D1BFAE00C4D415 /* Build configuration list for PBXNativeTarget "Frazzle" */;
+			buildPhases = (
+				78BEAF8319D1BFAD00C4D415 /* Sources */,
+				78BEAF8419D1BFAD00C4D415 /* Frameworks */,
+				78BEAF8519D1BFAD00C4D415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frazzle;
+			productName = Frazzle;
+			productReference = 78BEAF8719D1BFAD00C4D415 /* Frazzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78BEAFA019D1BFAE00C4D415 /* FrazzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BEAFAE19D1BFAE00C4D415 /* Build configuration list for PBXNativeTarget "FrazzleTests" */;
+			buildPhases = (
+				78BEAF9D19D1BFAE00C4D415 /* Sources */,
+				78BEAF9E19D1BFAE00C4D415 /* Frameworks */,
+				78BEAF9F19D1BFAE00C4D415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BEAFA319D1BFAE00C4D415 /* PBXTargetDependency */,
+			);
+			name = FrazzleTests;
+			productName = FrazzleTests;
+			productReference = 78BEAFA119D1BFAE00C4D415 /* FrazzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BEAF7F19D1BFAD00C4D415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Zac Tolley";
+				TargetAttributes = {
+					78BEAF8619D1BFAD00C4D415 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					78BEAFA019D1BFAE00C4D415 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 78BEAF8619D1BFAD00C4D415;
+					};
+				};
+			};
+			buildConfigurationList = 78BEAF8219D1BFAD00C4D415 /* Build configuration list for PBXProject "Frazzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78BEAF7E19D1BFAD00C4D415;
+			productRefGroup = 78BEAF8819D1BFAD00C4D415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BEAF8619D1BFAD00C4D415 /* Frazzle */,
+				78BEAFA019D1BFAE00C4D415 /* FrazzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BEAF8519D1BFAD00C4D415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEAF9719D1BFAE00C4D415 /* Main.storyboard in Resources */,
+				78BEAF9C19D1BFAE00C4D415 /* LaunchScreen.xib in Resources */,
+				78BEAF9919D1BFAE00C4D415 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BEAF9F19D1BFAE00C4D415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BEAF8319D1BFAD00C4D415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEAF9019D1BFAE00C4D415 /* Frazzle.xcdatamodeld in Sources */,
+				78BEAF8D19D1BFAE00C4D415 /* AppDelegate.swift in Sources */,
+				78BEAF9219D1BFAE00C4D415 /* MasterViewController.swift in Sources */,
+				78BEAF9419D1BFAE00C4D415 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BEAF9D19D1BFAE00C4D415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BEAFA319D1BFAE00C4D415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BEAF8619D1BFAD00C4D415 /* Frazzle */;
+			targetProxy = 78BEAFA219D1BFAE00C4D415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78BEAF9519D1BFAE00C4D415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BEAF9619D1BFAE00C4D415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BEAF9B19D1BFAE00C4D415 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BEAFA919D1BFAE00C4D415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78BEAFAA19D1BFAE00C4D415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BEAFAC19D1BFAE00C4D415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Frazzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78BEAFAD19D1BFAE00C4D415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Frazzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78BEAFAF19D1BFAE00C4D415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrazzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frazzle.app/Frazzle";
+			};
+			name = Debug;
+		};
+		78BEAFB019D1BFAE00C4D415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrazzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frazzle.app/Frazzle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BEAF8219D1BFAD00C4D415 /* Build configuration list for PBXProject "Frazzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BEAFA919D1BFAE00C4D415 /* Debug */,
+				78BEAFAA19D1BFAE00C4D415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BEAFAB19D1BFAE00C4D415 /* Build configuration list for PBXNativeTarget "Frazzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BEAFAC19D1BFAE00C4D415 /* Debug */,
+				78BEAFAD19D1BFAE00C4D415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78BEAFAE19D1BFAE00C4D415 /* Build configuration list for PBXNativeTarget "FrazzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BEAFAF19D1BFAE00C4D415 /* Debug */,
+				78BEAFB019D1BFAE00C4D415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */,
+			);
+			currentVersion = 78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */;
+			path = Frazzle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78BEAF7F19D1BFAD00C4D415 /* Project object */;
+}
