@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7891CC2719D2190800FD9186 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFC619D1C8E200C4D415 /* Person.swift */; };
+		7891CC2919D21CB300FD9186 /* TestCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7891CC2819D21CB300FD9186 /* TestCoreDataHelper.swift */; };
 		78BEAF8D19D1BFAE00C4D415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */; };
 		78BEAF9019D1BFAE00C4D415 /* Frazzle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */; };
-		78BEAF9219D1BFAE00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */; };
-		78BEAF9419D1BFAE00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */; };
 		78BEAF9719D1BFAE00C4D415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9519D1BFAE00C4D415 /* Main.storyboard */; };
 		78BEAF9919D1BFAE00C4D415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9819D1BFAE00C4D415 /* Images.xcassets */; };
 		78BEAF9C19D1BFAE00C4D415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */; };
 		78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */; };
+		78BEAFB619D1C0CF00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */; };
+		78BEAFB719D1C0CF00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */; };
+		78BEAFB819D1C0CF00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */; };
+		78BEAFB919D1C0CF00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */; };
+		78BEAFBB19D1C0FE00C4D415 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */; };
+		78BEAFBC19D1C0FE00C4D415 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */; };
+		78BEAFC719D1C8E200C4D415 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFC619D1C8E200C4D415 /* Person.swift */; };
+		78BEAFCB19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFCA19D1CF4E00C4D415 /* CoreDataHelper.swift */; };
+		78BEAFCC19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFCA19D1CF4E00C4D415 /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7891CC2819D21CB300FD9186 /* TestCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCoreDataHelper.swift; sourceTree = "<group>"; };
 		78BEAF8719D1BFAD00C4D415 /* Frazzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frazzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BEAF8B19D1BFAD00C4D415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Frazzle.xcdatamodel; sourceTree = "<group>"; };
-		78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		78BEAF9619D1BFAE00C4D415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78BEAF9819D1BFAE00C4D415 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78BEAF9B19D1BFAE00C4D415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78BEAFA119D1BFAE00C4D415 /* FrazzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrazzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BEAFA619D1BFAE00C4D415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrazzleTests.swift; sourceTree = "<group>"; };
+		78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonStore.swift; sourceTree = "<group>"; };
+		78BEAFC619D1C8E200C4D415 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		78BEAFCA19D1CF4E00C4D415 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +94,14 @@
 		78BEAF8919D1BFAD00C4D415 /* Frazzle */ = {
 			isa = PBXGroup;
 			children = (
+				78BEAFC919D1CEBB00C4D415 /* Core Data Helpers */,
+				78BEAFB319D1BFE200C4D415 /* Controller */,
+				78BEAFB219D1BFCC00C4D415 /* Store */,
+				78BEAFB119D1BFC100C4D415 /* Model */,
 				78BEAF8C19D1BFAE00C4D415 /* AppDelegate.swift */,
-				78BEAF9119D1BFAE00C4D415 /* MasterViewController.swift */,
-				78BEAF9319D1BFAE00C4D415 /* DetailViewController.swift */,
 				78BEAF9519D1BFAE00C4D415 /* Main.storyboard */,
 				78BEAF9819D1BFAE00C4D415 /* Images.xcassets */,
 				78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */,
-				78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */,
 				78BEAF8A19D1BFAD00C4D415 /* Supporting Files */,
 			);
 			path = Frazzle;
@@ -104,6 +118,7 @@
 		78BEAFA419D1BFAE00C4D415 /* FrazzleTests */ = {
 			isa = PBXGroup;
 			children = (
+				7891CC2819D21CB300FD9186 /* TestCoreDataHelper.swift */,
 				78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */,
 				78BEAFA519D1BFAE00C4D415 /* Supporting Files */,
 			);
@@ -116,6 +131,44 @@
 				78BEAFA619D1BFAE00C4D415 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BEAFB119D1BFC100C4D415 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFC619D1C8E200C4D415 /* Person.swift */,
+				78BEAF8E19D1BFAE00C4D415 /* Frazzle.xcdatamodeld */,
+			);
+			name = Model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		78BEAFB219D1BFCC00C4D415 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */,
+			);
+			name = Store;
+			path = store;
+			sourceTree = "<group>";
+		};
+		78BEAFB319D1BFE200C4D415 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */,
+				78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */,
+			);
+			name = Controller;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		78BEAFC919D1CEBB00C4D415 /* Core Data Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				78BEAFCA19D1CF4E00C4D415 /* CoreDataHelper.swift */,
+			);
+			name = "Core Data Helpers";
+			path = coredatahelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,10 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BEAFB819D1C0CF00C4D415 /* MasterViewController.swift in Sources */,
+				78BEAFCB19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */,
+				78BEAFB619D1C0CF00C4D415 /* DetailViewController.swift in Sources */,
 				78BEAF9019D1BFAE00C4D415 /* Frazzle.xcdatamodeld in Sources */,
 				78BEAF8D19D1BFAE00C4D415 /* AppDelegate.swift in Sources */,
-				78BEAF9219D1BFAE00C4D415 /* MasterViewController.swift in Sources */,
-				78BEAF9419D1BFAE00C4D415 /* DetailViewController.swift in Sources */,
+				78BEAFC719D1C8E200C4D415 /* Person.swift in Sources */,
+				78BEAFBB19D1C0FE00C4D415 /* PersonStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BEAFBC19D1C0FE00C4D415 /* PersonStore.swift in Sources */,
 				78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */,
+				78BEAFCC19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */,
+				78BEAFB719D1C0CF00C4D415 /* DetailViewController.swift in Sources */,
+				7891CC2719D2190800FD9186 /* Person.swift in Sources */,
+				78BEAFB919D1C0CF00C4D415 /* MasterViewController.swift in Sources */,
+				7891CC2919D21CB300FD9186 /* TestCoreDataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +475,7 @@
 				78BEAFAD19D1BFAE00C4D415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78BEAFAE19D1BFAE00C4D415 /* Build configuration list for PBXNativeTarget "FrazzleTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +484,7 @@
 				78BEAFB019D1BFAE00C4D415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -431,7 +495,8 @@
 				78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */,
 			);
 			currentVersion = 78BEAF8F19D1BFAE00C4D415 /* Frazzle.xcdatamodel */;
-			path = Frazzle.xcdatamodeld;
+			name = Frazzle.xcdatamodeld;
+			path = ../Frazzle.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
