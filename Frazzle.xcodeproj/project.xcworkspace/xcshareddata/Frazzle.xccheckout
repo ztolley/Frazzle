@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A11071D7-3AC7-455B-B70E-0E3A62FACD72</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Frazzle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3250794618F801A76EAC7E9872E9E1399F50FEA5</key>
+		<string>https://github.com/ztolley/Frazzle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Frazzle.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3250794618F801A76EAC7E9872E9E1399F50FEA5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ztolley/Frazzle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3250794618F801A76EAC7E9872E9E1399F50FEA5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3250794618F801A76EAC7E9872E9E1399F50FEA5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Frazzle</string>
+		</dict>
+	</array>
+</dict>
+</plist>

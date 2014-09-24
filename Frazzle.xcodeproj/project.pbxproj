@@ -15,8 +15,6 @@
 		78BEAF9919D1BFAE00C4D415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9819D1BFAE00C4D415 /* Images.xcassets */; };
 		78BEAF9C19D1BFAE00C4D415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BEAF9A19D1BFAE00C4D415 /* LaunchScreen.xib */; };
 		78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */; };
-		78BEAFB619D1C0CF00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */; };
-		78BEAFB719D1C0CF00C4D415 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */; };
 		78BEAFB819D1C0CF00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */; };
 		78BEAFB919D1C0CF00C4D415 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */; };
 		78BEAFBB19D1C0FE00C4D415 /* PersonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */; };
@@ -48,7 +46,6 @@
 		78BEAFA119D1BFAE00C4D415 /* FrazzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrazzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BEAFA619D1BFAE00C4D415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BEAFA719D1BFAE00C4D415 /* FrazzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrazzleTests.swift; sourceTree = "<group>"; };
-		78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		78BEAFBA19D1C0FE00C4D415 /* PersonStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonStore.swift; sourceTree = "<group>"; };
 		78BEAFC619D1C8E200C4D415 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -155,7 +152,6 @@
 		78BEAFB319D1BFE200C4D415 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				78BEAFB419D1C0CF00C4D415 /* DetailViewController.swift */,
 				78BEAFB519D1C0CF00C4D415 /* MasterViewController.swift */,
 			);
 			name = Controller;
@@ -273,7 +269,6 @@
 			files = (
 				78BEAFB819D1C0CF00C4D415 /* MasterViewController.swift in Sources */,
 				78BEAFCB19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */,
-				78BEAFB619D1C0CF00C4D415 /* DetailViewController.swift in Sources */,
 				78BEAF9019D1BFAE00C4D415 /* Frazzle.xcdatamodeld in Sources */,
 				78BEAF8D19D1BFAE00C4D415 /* AppDelegate.swift in Sources */,
 				78BEAFC719D1C8E200C4D415 /* Person.swift in Sources */,
@@ -288,7 +283,6 @@
 				78BEAFBC19D1C0FE00C4D415 /* PersonStore.swift in Sources */,
 				78BEAFA819D1BFAE00C4D415 /* FrazzleTests.swift in Sources */,
 				78BEAFCC19D1CF4E00C4D415 /* CoreDataHelper.swift in Sources */,
-				78BEAFB719D1C0CF00C4D415 /* DetailViewController.swift in Sources */,
 				7891CC2719D2190800FD9186 /* Person.swift in Sources */,
 				78BEAFB919D1C0CF00C4D415 /* MasterViewController.swift in Sources */,
 				7891CC2919D21CB300FD9186 /* TestCoreDataHelper.swift in Sources */,

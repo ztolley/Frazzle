@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		let navigationController = self.window!.rootViewController as UINavigationController
 		let controller = navigationController.topViewController as MasterViewController
 		
-		controller.managedObjectContext = coreDataHelper.managedObjectContext
+		controller.setCdh(coreDataHelper)
 		return true
 	}
 
