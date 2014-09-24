@@ -13,38 +13,44 @@ import CoreData
 class FrazzleTests: XCTestCase {
 	
 	let coreDataHelper = TestCoreDataHelper()
+	var personStore:PersonStore!
 	
-    func testSimplePerson() {
-		
-		self.addPerson("Fred")
-		
-		let context = self.coreDataHelper.managedObjectContext!
-		
-		let fetchRequest = NSFetchRequest()
-		fetchRequest.entity = NSEntityDescription.entityForName("Person", inManagedObjectContext: context)
-		
-		var error: NSError? = nil
-		
-		let people = context.executeFetchRequest(fetchRequest, error: &error) as [Person]?
-		let firstPerson = people![0]
-		
-		XCTAssert(firstPerson.name == "Fred" , "Testing getting stuff")
+	
+	override func setUp() {
+		personStore = PersonStore(context: self.coreDataHelper.managedObjectContext!)
 	}
 	
 	
-	func addPerson(name:String) -> Person {
-		let context = self.coreDataHelper.managedObjectContext!
+	func testAddPerson() {
 		
-		let entityDescription = NSEntityDescription.entityForName("Person", inManagedObjectContext: context)
-		let person = Person(entity: entityDescription!, insertIntoManagedObjectContext: context)
-		
-		person.name = name
-		person.created = NSDate.date()
-		
-		return person
-	}
-	
-    
+		var person = personStore.addPerson("Fred", created: NSDate.date())
 
-    
+		XCTAssert(person.name == "Fred", "Check the new person object has the correct name")
+		
+	}
+	
+	func testCountPeople() {
+		
+		var count = 0
+		let result = personStore.getAllPeople()
+		
+		count = result.people?.count ?? 0
+		
+		XCTAssert(count == 0, "Make sure the result collection has 1 result")
+
+	}
+	
+	func testRetrievePerson() {
+		
+		personStore.addPerson("Fred", created: NSDate.date())
+		
+		let result = personStore.getAllPeople()
+		
+		let firstPerson = result.people?[0]
+		let name = firstPerson?.name
+		
+		XCTAssert(firstPerson?.name == "Fred", "Check the new person object has the correct name")
+		
+	}
+
 }

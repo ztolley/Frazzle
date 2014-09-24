@@ -52,8 +52,5 @@ class MasterViewController: UIViewController {
 		nameLabel.text = firstPerson?.name
 	
 	}
-	
-	
-	
-}
 
+}
