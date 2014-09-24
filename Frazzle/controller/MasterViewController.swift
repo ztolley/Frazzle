@@ -36,24 +36,20 @@ class MasterViewController: UIViewController {
 	func updateTotal() {
 
 		var count = 0
-
 		let result = personStore.getAllPeople()
-		
-		if let people = result.people {
-			count = people.count ?? 0
-		}
+
+		count = result.people?.count ?? 0
 		
 		countLabel.text = "Curent Count: \(count)"
+
 	}
 	
 	func showFirstPerson() {
 		
 		let result = personStore.getAllPeople()
 		
-		if let people = result.people {
-			let firstPerson = people[0]
-			nameLabel.text = firstPerson.name
-		}
+		let firstPerson = result.people?[0]
+		nameLabel.text = firstPerson?.name
 	
 	}
 	
