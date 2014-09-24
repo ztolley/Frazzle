@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 @objc(Person)
-class Person: NSManagedObject {
+public class Person: NSManagedObject {
 
     @NSManaged var name: String
     @NSManaged var created: NSDate
