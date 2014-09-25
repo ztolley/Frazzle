@@ -46,10 +46,11 @@ class FrazzleTests: XCTestCase {
 		
 		let result = personStore.getAllPeople()
 		
-		let firstPerson = result.people?[0]
-		let name = firstPerson?.name
-		
-		XCTAssert(firstPerson?.name == "Fred", "Check the new person object has the correct name")
+		if let people = result.people {
+			XCTAssert(people[0].name == "Fred", "The first person is called fred")
+		} else {
+			XCTFail("No people returned")
+		}
 		
 	}
 

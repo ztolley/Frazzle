@@ -31,7 +31,7 @@ class PersonStore {
 		
 		var error: NSError? = nil
 		
-		let people:[Person]? = context.executeFetchRequest(fetchRequest, error: &error) as [Person]?
+		let people = context.executeFetchRequest(fetchRequest, error: &error) as [Person]?
 		
 		return (error, people)
 

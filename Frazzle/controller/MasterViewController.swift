@@ -48,8 +48,13 @@ class MasterViewController: UIViewController {
 		
 		let result = personStore.getAllPeople()
 		
-		let firstPerson = result.people?[0]
-		nameLabel.text = firstPerson?.name
+		if let people = result.people {
+			nameLabel.text = people[0].name
+		} else {
+			nameLabel.text = "Nothing"
+		}
+		
+		
 	
 	}
 
