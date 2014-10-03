@@ -19,10 +19,12 @@ class TestCoreDataHelper {
 		let modelURL = NSBundle.mainBundle().URLForResource(self.modelName, withExtension: "momd")!
 		let originalModel = NSManagedObjectModel(contentsOfURL: modelURL)
 		
-		let testManagedObjectModel = originalModel.copy() as NSManagedObjectModel
+		let testManagedObjectModel = originalModel?.copy() as NSManagedObjectModel
+
 		
 		for entity in testManagedObjectModel.entities as [NSEntityDescription] {
 			if entity.name == "Person" {
+				NSLog("----------------- This actually works --------------")
 				entity.managedObjectClassName = "FrazzleTests.Person"
 			}
 		}
@@ -45,7 +47,7 @@ class TestCoreDataHelper {
 			dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
 			dict[NSLocalizedFailureReasonErrorKey] = failureReason
 			dict[NSUnderlyingErrorKey] = error
-			error = NSError.errorWithDomain("YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+			error = NSError(domain:"YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
 			
 			NSLog("Unresolved error \(error), \(error!.userInfo)")
 			abort()

@@ -24,7 +24,7 @@ class CoreDataHelper {
 	lazy var managedObjectModel: NSManagedObjectModel = {
 		// The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
 		let modelURL = NSBundle.mainBundle().URLForResource(self.modelName, withExtension: "momd")!
-		return NSManagedObjectModel(contentsOfURL: modelURL)
+		return NSManagedObjectModel(contentsOfURL: modelURL)!
 	}()
 	
 	lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator? = {
@@ -41,7 +41,7 @@ class CoreDataHelper {
 			dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
 			dict[NSLocalizedFailureReasonErrorKey] = failureReason
 			dict[NSUnderlyingErrorKey] = error
-			error = NSError.errorWithDomain("YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
+			error = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
 
 			NSLog("Unresolved error \(error), \(error!.userInfo)")
 			abort()

@@ -23,7 +23,7 @@ class FrazzleTests: XCTestCase {
 	
 	func testAddPerson() {
 		
-		var person = personStore.addPerson("Fred", created: NSDate.date())
+		var person = personStore.addPerson("Fred", created: NSDate())
 
 		XCTAssert(person.name == "Fred", "Check the new person object has the correct name")
 		
@@ -42,7 +42,7 @@ class FrazzleTests: XCTestCase {
 	
 	func testRetrievePerson() {
 		
-		personStore.addPerson("Fred", created: NSDate.date())
+		personStore.addPerson("Fred", created: NSDate())
 		
 		let result = personStore.getAllPeople()
 		

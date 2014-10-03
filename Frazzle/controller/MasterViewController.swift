@@ -25,7 +25,7 @@ class MasterViewController: UIViewController {
 		
 		countLabel.text = "Adding"
 		
-		personStore.addPerson("Fred", created:NSDate.date())
+		personStore.addPerson("Fred", created:NSDate())
 		
 		self.updateTotal()
 		self.showFirstPerson()
