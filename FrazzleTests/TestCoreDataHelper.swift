@@ -23,10 +23,7 @@ class TestCoreDataHelper {
 
 		
 		for entity in testManagedObjectModel.entities as [NSEntityDescription] {
-			if entity.name == "Person" {
-				NSLog("----------------- This actually works --------------")
-				entity.managedObjectClassName = "FrazzleTests.Person"
-			}
+			entity.managedObjectClassName = "FrazzleTests." + entity.name!
 		}
 		
 		return testManagedObjectModel
